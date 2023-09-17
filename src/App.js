@@ -1,4 +1,5 @@
 import Hero from "./component/Hero";
+import Welcome from "./component/Welcome";
 import Header from "./component/header"
 
 const  App = () =>{
@@ -6,6 +7,7 @@ const  App = () =>{
     <>
       <Header/>
       <Hero/>
+      <Welcome/>
     </>
   );
 }
